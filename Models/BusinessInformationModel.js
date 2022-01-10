@@ -27,9 +27,13 @@ const BusinessInformationSchema = new mongoose.Schema({
     CreatedTime: {
         type: String,
         required: true,
+    },
+    EmailID: {
+        type: String,
+        required: true,
     }
 
-},{
+}, {
     versionKey: false
 });
 
